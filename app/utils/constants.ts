@@ -43,6 +43,10 @@ const staticModels: ModelInfo[] = [
   { name: 'mistral-small-latest', label: 'Mistral Small', provider: 'Mistral' },
   { name: 'codestral-latest', label: 'Codestral', provider: 'Mistral' },
   { name: 'mistral-large-latest', label: 'Mistral Large Latest', provider: 'Mistral' },
+  { name: 'qwen-coder-plus', label: 'qwen-coder-plus', provider: 'OpenAILike' },
+  { name: 'qwen-coder-plus-1106', label: 'qwen-coder-plus-1106', provider: 'OpenAILike' },
+  { name: 'qwen-coder-plus-latest', label: 'qwen-coder-plus-latest', provider: 'OpenAILike' },
+  { name: 'qwen2.5-coder-32b-instruct', label: 'qwen2.5-coder-32b-instruct', provider: 'OpenAILike' },
 ];
 
 export let MODEL_LIST: ModelInfo[] = [...staticModels];
